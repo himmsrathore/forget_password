@@ -1,0 +1,50 @@
+Create forget password 
+
+1. Create Database table (mailer setting)
+2. Create database table (user registration)
+3. Download phpmailer.zip 
+4. Download forget.php
+5. To create database table please use read me file !
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_registration`
+--
+
+CREATE TABLE IF NOT EXISTS `user_registration` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(100) NOT NULL,
+  `user_email` varchar(100) NOT NULL,
+  `start_date` varchar(10) NOT NULL,
+  `end_date` varchar(10) NOT NULL,
+  `hash` varchar(100) NOT NULL,
+  `isactive` int(10) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `plan_id` int(100) NOT NULL,
+  `user_post_limit` varchar(100) NOT NULL DEFAULT '1',
+  `fb_profile` int(100) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1004 ;
+
+--
+
+--
+-- Table structure for table `mailer_setting`
+--
+
+CREATE TABLE IF NOT EXISTS `mailer_setting` (
+  `id` int(1) NOT NULL AUTO_INCREMENT,
+  `mailer_name` varchar(50) NOT NULL,
+  `mailer_email` varchar(50) NOT NULL,
+  `mailer_pass` varchar(50) NOT NULL,
+  `smtp_host` varchar(50) NOT NULL,
+  `smtp_port` varchar(50) NOT NULL,
+  `smtpsecure` varchar(50) NOT NULL,
+  `message` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+-- 
+
