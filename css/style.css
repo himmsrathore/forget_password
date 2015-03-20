@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2014, 12:04:07 PM
+    Author     : coretechies04
+*/
+
+.main
+{
+    padding: 10px;
+    background-color: #ccc;
+}
+.clear{
+    clear: both;
+}
+.left-col{
+    width: 100%;
+    min-height: 500px;
+    background-color: #000;
+    
+}
+.middle-col{
+    width: 100%;
+    min-height: 500px;
+    background-color: #269abc;
+}
+.right-col{
+    width: 100%;
+    min-height: 500px;
+    background-color: #eb9316;
+}
+.logo{
+    width: 100%;
+    min-height: 20px;
+    background-color:#000;
+}
+.header-mid{
+     width: 100%;
+    min-height: 20px;
+    background-color:#0f0;
+}
+.header-right{
+     width: 100%;
+    min-height: 20px;
+    background-color:#f00;
+}
+
+.top_bar {
+	border: 1px solid #5b6166;
+	background: url("../images/header_bg.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 51px;
+	border-bottom: none;
+}
+.head-left{
+    width: 100%;
+    min-height: 50px;
+    background-color:#ff0;
+}
+.head-right{
+    width: 100%;
+    min-height: 50px;
+    background-color:#f0f;
+    
+}
+
+.music_ic {
+	float: left;
+	padding-top: 3px;
+}
+.music_ic li {
+	border: 2px solid #59636a;
+	border-radius: 50%;
+	box-shadow: 0 2px 2px #000 inset;
+	margin-right: 3px;
+	background: #414141; /* Old browsers */
+	background: -moz-linear-gradient(top, #414141 0%, #656565 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #414141), color-stop(100%, #656565)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #414141 0%, #656565 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #414141 0%, #656565 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #414141 0%, #656565 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #414141 0%, #656565 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414141', endColorstr='#656565', GradientType=0 ); /* IE6-9 */
+}
+.music_ic li:hover {
+	box-shadow: 0 2px 2px #1e3240 inset;
+	background: #414141; /* Old browsers */
+	background: -moz-linear-gradient(top, #656565 0%, #414141 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #656565), color-stop(100%, #414141)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #656565 0%, #414141 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #656565 0%, #414141 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #656565 0%, #414141 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #656565 0%, #414141 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656565', endColorstr='#414141', GradientType=0 ); /* IE6-9 */
+}
+
+.music_ic li a {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.music_ic li:nth-child(1) a {
+	background: url(../images/music_ic1.png) no-repeat center;
+}
+.music_ic li:nth-child(2) a {
+	background: url(../images/music_ic2.png) no-repeat center;
+}
+.music_ic li:nth-child(3) a {
+	background: url(../images/music_ic3.png) no-repeat center;
+}
+.music_ic li:nth-child(4) a {
+	background: url(../images/music_ic4.png) no-repeat center;
+}
+.music_ic li:nth-child(5) a {
+	background: url(../images/logout.png) no-repeat center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline-block;
+}
+.nav-bar{
+    width: 100%;
+    min-height: 50px;
+    background-color:#fcc;
+}
+
